@@ -71,10 +71,12 @@ if streamlit.button('Add a Fruit to the List'):
     my_cnx.close()
     streamlit.text(back_from_function)
 
-
-
-    
 streamlit.stop()
+
+
+
+
+
 
 streamlit.write('The user entered ', fruit_choice)
 
